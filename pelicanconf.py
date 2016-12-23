@@ -4,9 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Alex'
 SITENAME = 'Alex Zhao'
-SITEURL = 'yazhao.github.io'
 
-THEME = 'simple'
+THEME = 'notmyidea'
 
 PATH = 'content'
 
@@ -28,7 +27,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
+SOCIAL = (('Twitter', 'https://www.twitter.com/alexzhao'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
