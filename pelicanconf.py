@@ -19,7 +19,8 @@ PAGE_PATHS = ['content']
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 ABOUT_PAGE_HEADER = 'Hello.'
-STATIC_PATHS = ['images', 'notebooks']
+STATIC_PATHS = ['images', 'notebooks','extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # DEFAULTS
 DEFAULT_LANG = 'en'
