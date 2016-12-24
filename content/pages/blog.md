@@ -1,1 +1,3 @@
-Title: Blog Slug: blog Template: blog
+Title: Blog 
+Slug: blog 
+Template: blog

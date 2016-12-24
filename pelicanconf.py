@@ -9,7 +9,8 @@ SITEURL = 'http://www.alexzhao.us'
 TIMEZONE = 'America/New_York'
 THEME = 'void/'
 AVATAR = '/theme/images/avatar.jpg'
-DESCRIPTION = "A personal website of Alex Zhao with some data analysis"
+TITLE = 'Alex Zhao: statistics graduate student at Pennsylvnania State University'
+DESCRIPTION = "Alex Zhao is a graduate student in statistics at Penn State, with experience as a data analyst at e-commerce and gaming tech companies working with analytics and big data"
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
@@ -38,9 +39,9 @@ AUTHOR_FEED_RSS = None
 
 NAVIGATION = [
     # You probably want to fill these in so they point to your user pages
-    {'site': 'twitter', 'user': '', 'url': 'https://twitter.com/alexzhao'},
-    {'site': 'github', 'user': '', 'url': 'https://github.com/yazhao'},
-    {'site': 'linkedin', 'user': '', 'url': 'http://linkedin.com/in/yealexzhao'},
+    {'site': 'twitter', 'user': 'alexzhao', 'url': 'https://twitter.com/alexzhao'},
+    {'site': 'github', 'user': 'yazhao', 'url': 'https://github.com/yazhao'},
+    {'site': 'linkedin', 'user': 'yealexzhao', 'url': 'http://linkedin.com/in/yealexzhao'},
 ]
 
 DEFAULT_PAGINATION = 10
