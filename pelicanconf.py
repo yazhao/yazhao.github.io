@@ -19,7 +19,7 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
-ABOUT_PAGE_HEADER = 'Stay awhile and listen.'
+ABOUT_PAGE_HEADER = ''
 STATIC_PATHS = ['images', 'notebooks','extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
