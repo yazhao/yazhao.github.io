@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Alex'
 SITENAME = 'Alex Zhao'
 
-THEME = 'notmyidea'
+THEME = 'void/'
 
 PATH = 'content'
 
@@ -36,6 +36,5 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 MARKUP = ('md', 'ipynb')
-
-PLUGIN_PATHS = ['./plugins']
-PLUGINS = ['ipynb.markup']
+PLUGIN_PATHS = ['./plugins','pelican-plugins']
+PLUGINS = ['ipynb.markup','assets', 'pelican_dynamic', 'render_math']
