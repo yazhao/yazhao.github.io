@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex Zhao</title><link href="https://alexzhao.us/" rel="alternate"></link><link href="https://alexzhao.us/feeds/all.atom.xml" rel="self"></link><id>https://alexzhao.us/</id><updated>2016-06-08T20:00:00-04:00</updated><entry><title>First Post</title><link href="https://alexzhao.us/first-post.html" rel="alternate"></link><published>2016-06-08T20:00:00-04:00</published><updated>2016-06-08T20:00:00-04:00</updated><author><name>Alex</name></author><id>tag:alexzhao.us,2016-06-08:first-post.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alex Zhao</title><link href="https://alexzhao.us/" rel="alternate"></link><link href="https://alexzhao.us/feeds/all.atom.xml" rel="self"></link><id>https://alexzhao.us/</id><updated>2016-06-08T20:00:00-04:00</updated><entry><title>First Post</title><link href="https://alexzhao.us/2016/06/08/first-post/" rel="alternate"></link><published>2016-06-08T20:00:00-04:00</published><updated>2016-06-08T20:00:00-04:00</updated><author><name>Alex</name></author><id>tag:alexzhao.us,2016-06-08:2016/06/08/first-post/</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *

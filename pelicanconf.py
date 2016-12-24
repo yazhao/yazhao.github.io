@@ -2,16 +2,31 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Alex'
+#Site 
+AUTHOR = 'Alex Zhao'
 SITENAME = 'Alex Zhao'
-
-THEME = 'void/'
-
-PATH = 'content'
-
+SITEURL = 'http://www.alexzhao.us'
 TIMEZONE = 'America/New_York'
+THEME = 'void/'
+AVATAR = '/theme/images/avatar.jpg'
+DESCRIPTION = "A personal website of Alex Zhao with some data analysis"
 
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+
+# Static Pages
+PAGE_PATHS = ['content']
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+ABOUT_PAGE_HEADER = 'Hello.'
+STATIC_PATHS = ['images', 'notebooks']
+
+# DEFAULTS
 DEFAULT_LANG = 'en'
+DEFAULT_CATEGORY = 'misc'
+DEFAULT_DATE = 'fs'
+DEFAULT_DATE_FORMAT = '%b %d, %Y'
+DEFAULT_PAGINATION = False
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -20,14 +35,12 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('Twitter', 'https://www.twitter.com/alexzhao'),)
+NAVIGATION = [
+    # You probably want to fill these in so they point to your user pages
+    {'site': 'twitter', 'user': '', 'url': 'https://twitter.com/alexzhao'},
+    {'site': 'github', 'user': '', 'url': 'https://github.com/yazhao'},
+    {'site': 'linkedin', 'user': '', 'url': 'http://linkedin.com/in/yealexzhao'},
+]
 
 DEFAULT_PAGINATION = 10
 
@@ -37,3 +50,12 @@ DEFAULT_PAGINATION = 10
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./plugins','pelican-plugins']
 PLUGINS = ['ipynb.markup','assets', 'pelican_dynamic', 'render_math']
+
+
+TWITTER_NAME = "alexzhao"
+TWITTER_CARDS = True
+FACEBOOK_SHARE = True
+HACKER_NEWS_SHARE = True
+
+# Other
+CACHE_CONTENT = False
