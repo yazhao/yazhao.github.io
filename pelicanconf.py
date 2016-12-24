@@ -15,7 +15,7 @@ ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Static Pages
-PAGE_PATHS = ['content']
+PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 ABOUT_PAGE_HEADER = 'Stay awhile and listen.'
@@ -56,7 +56,7 @@ PLUGINS = ['ipynb.markup','assets', 'pelican_dynamic', 'render_math']
 TWITTER_NAME = "alexzhao"
 TWITTER_CARDS = True
 FACEBOOK_SHARE = True
-HACKER_NEWS_SHARE = True
+HACKER_NEWS_SHARE = False
 
 # Other
 CACHE_CONTENT = False
