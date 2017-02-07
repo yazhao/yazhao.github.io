@@ -8,7 +8,7 @@ SITENAME = 'Alex Zhao'
 SITEURL = 'http://www.alexzhao.us'
 TIMEZONE = 'America/New_York'
 THEME = 'void/'
-AVATAR = '/images/avatar.jpg'
+AVATAR = 'content/images/avatar.jpg'
 TITLE = 'Alex Zhao: statistics graduate student at Pennsylvnania State University'
 DESCRIPTION = "Alex Zhao is a graduate student in statistics at Penn State, with experience as a data analyst at e-commerce and gaming tech companies working with analytics and big data"
 
