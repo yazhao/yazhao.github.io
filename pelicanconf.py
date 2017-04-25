@@ -59,5 +59,9 @@ TWITTER_CARDS = True
 FACEBOOK_SHARE = True
 HACKER_NEWS_SHARE = False
 
+#### Analytics
+GOOGLE_ANALYTICS = 'UA-98118084-1'
+DOMAIN = "www.alexzhao.us"
+
 # Other
 CACHE_CONTENT = False
