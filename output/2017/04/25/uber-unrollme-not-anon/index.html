@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+<!-- Extra Header for IPython Notebooks
+================================================== -->
+
+	<!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>The Unroll.me Data That Uber Bought Probably Isn't That Anonymous</title>
+
+  <meta name="description" content="">
+  <meta name="author" content="Alex Zhao">
+  <meta name="copyright" content="&copy; Copyright Alex Zhao,  to Present">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Fonts
+  ================================================== -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans|Merriweather|Source+Code+Pro' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="/theme/css/style.min.css?a5c2ef23">
+
+  <!-- Feeds
+  ================================================== -->
+  <link rel="alternate" type="application/atom+xml" href="https://alexzhao.us/feeds/all.atom.xml" title="Alex Zhao Full Atom Feed">
+
+	<!-- Facebook Open Graph
+  ================================================== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Unroll.me Data That Uber Bought Probably Isn't That Anonymous">
+  <meta property="og:url" content="https://alexzhao.us/2017/04/25/uber-unrollme-not-anon/">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="Alex Zhao">
+  <meta property="og:image" content="https://alexzhao.uscontent/images/avatar.jpg">
+
+  <!-- Twitter Cards
+  ================================================== -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@alexzhao">
+  <meta name="twitter:creator" content="@alexzhao">
+  <meta name="twitter:domain" content="www.alexzhao.us">
+  <meta name="twitter:image" content="https://alexzhao.us">
+  <meta name="twitter:title" content="The Unroll.me Data That Uber Bought Probably Isn't That Anonymous">
+  <meta name="twitter:description" content="">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="">
+	<link rel="apple-touch-icon" href="/theme/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/theme/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/theme/images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+	<!-- Primary Page Layout
+	================================================== -->
+	<div class="container">
+<!-- Navigation
+================================================== -->
+<nav class="navbar">
+  <div class="navbar-brand six columns">
+      <ul>
+        <li>
+          <h1><a href="/" title="Home">Alex Zhao</a></h1>
+        </li>
+      </ul>
+      <ul id="social-icons">
+        <li>
+          <a class="icon" href="https://twitter.com/alexzhao" title="Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="https://github.com/yazhao" title="Github">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="http://linkedin.com/in/yealexzhao" title="Linkedin">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="https://alexzhao.us/feeds/all.atom.xml" title="Subscribe (Atom)">
+            <i class="fa fa-rss"></i>
+          </a>
+        </li>
+      </ul> <!-- End social-icons ul -->
+    </div> <!-- End navbar-brand -->
+
+  <div class="navbar-links">
+      <ul>
+        <li><a href="/blog/">Blog</a></li>
+      </ul> <!-- End navbar-links ul -->
+    </div> <!-- End navbar-links -->
+</nav> <!-- End navbar -->		<section id="content" class="twelve columns">
+
+  <!-- Article Headers
+  ================================================================== -->
+  <h1 class="article-title"><a href="/2017/04/25/uber-unrollme-not-anon/" title="Permalink to The Unroll.me Data That Uber Bought Probably Isn't That Anonymous">The Unroll.me Data That Uber Bought Probably Isn't That Anonymous</a></h1>
+  <h5 class="article-date">April 25, 2017
+ | Tags:         <a class="tag" href="/tag/technology.html" rel="tag" title="Posts tagged with ">technology</a>
+        <a class="tag" href="/tag/startups.html" rel="tag" title="Posts tagged with ">startups</a>
+        <a class="tag" href="/tag/data-privacy.html" rel="tag" title="Posts tagged with ">data privacy</a>
+  </h5>
+  <hr class="small"></hr>
+
+  <!-- Article Content
+  ================================================================== -->
+  <div class="article-content">
+    <p>As was to be expected, a recent <a href="https://www.nytimes.com/2017/04/23/technology/travis-kalanick-pushes-uber-and-himself-to-the-precipice.html">New York Times article about Uber</a> has gotten the internet into an uproar over how Uber conducts its business. What's strange, however, is that while much of the internet's displeasure has been focused on Uber (and reading the article points out several aggressive and probably borderline unethical actions by the company), the biggest casualty from this story might not be Uber at all. Instead, another company, Slice Technologies, owner of a popular inbox decluttering service <a href="https://unroll.me/">Unroll.me</a>, was revealed to have <a href="https://www.nytimes.com/2017/04/24/technology/personal-data-firm-slice-unroll-me-backlash-uber.html">sold receipt data</a> from Uber's competitor Lyft to Uber, in a supposedly anonymized fashion.</p>
+<p>I personally don't think that Slice's particular defenses (we told you we do this and everyone else does it) are particularly compelling. The former depends on a Terms of Service no human being is actually reading, and the latter isn't quite true: the closest analogy I have seen would be Google mining its own data (in its apps and services) to monitor employees of competitors like Apple and Facebook. But that is an issue for another day. </p>
+<p>My problem with this whole saga is the fact that <strong>the information Slice sold really isn't that anonymous</strong>.</p>
+<h3>Location data might be enough</h3>
+<p>Let's suppose for a second that Slice did what it thought was due diligence and removed the names from every receipt. From the articles that I've read, that is essentially the extent to which the data was anonymized and sold to Uber. </p>
+<blockquote>
+<p>Unroll.me, a free service to unsubscribe from email lists, can scour people’s inboxes for receipts from services like Lyft and then sell the information to companies like Uber. The data is anonymized, meaning individuals’ names are not attached to the information, and can be used as a proxy for the health of a rival.</p>
+</blockquote>
+<p>It's possible that Slice also protected some of the location data, but a) that's very much unclear from its own <a href="https://www.slice.com/privacy">privacy policy</a>, and b) If they sold receipt-level data, it's possible both that Uber wanted that location data to keep track of Lyft and that the data is there anyways. At the very least, nothing in Slice's privacy policy prohibits this, and it's very likely they make as much of the individual receipt-level information available as possible.</p>
+<p>This is a problem, since a Lyft receipt looks like this:
+<img alt="Lyft Receipt" src="https://help.lyft.com/hc/en-us/article_attachments/204568237/unnamed.png" title="Lyft Receipt"></p>
+<p>If the reporting around these data sales is true, then what we assume is that all of the information in the receipt above, sans the customer's name, were sold to Uber. That means the last 4 of the credit card, the pickup, and the dropoff, would all be information that Uber could effectively parse. In the abstract, missing the names might be an effective method for eliminating personally identifiable information that would allow someone to trace individual trips back to an actual person. That is to say, this it's difficult to take that kind of receipt data and expose individual identities from just that database alone.</p>
+<p><strong>The problem is that Uber has another pretty much identical database which can be used to reveal these receipt-level identities.</strong></p>
+<h3>How to take "anonymous" data and find identities if you're Uber</h3>
+<ol>
+<li>Take your own users' data, specifically any saved addresses (for example for Home or Work)</li>
+<li>In addition to this, find for each user their most commonly used addresses/GPS coordinate region (say, within 50 feet) both for pickup and dropoff</li>
+<li>Since the Slice data exists also at the user level, do the same thing for receipts you get for each distinct customer</li>
+<li>If Slice gives you the last 4 of the credit cards for each receipts, compare those with your internal data as well</li>
+<li>Use the information from steps 1-4 (and information about when rides were requested as well) to match up users</li>
+<li>Now you have information on which of your Uber riders use Lyft, and their names.</li>
+</ol>
+<p>There are, of course, many caveats to this process. For starters, it's not very well defined since the objective here was not to fully flesh out the exact process by which to match up this supposedly anonymous data with Uber's own data, but rather to point out the general direction by which it could be done. It's also possible that Slice Technologies is better about data privacy than the articles claim, since they might simply aggregate data up at a level that makes it harder to tell who individual users are. Moreover, it's possible that Slice neither provided nor Uber requested that level of granularity, though I am more skeptical about the latter case and nothing within Slice's privacy policy actually rules that out (and indeed reserves the right to sell email messages). And finally, even given all this information, you probably can't get a 100% match between Lyft and Uber users (though very good rates are not out of the question).</p>
+<h4>Do a better job of protecting user privacy</h4>
+<p>Nonetheless, the biggest problem was simply the claim that removing people's names from this receipt level data was sufficient to anonymize the information. Perhaps in the abstract this is true, but when everything else about the receipt information is available, it's not that hard to figure out a name. Indeed, Uber would be far from the only company that could do this: any e-commerce business that stores addresses or tracks locations could use this level of data to find the identities of Lyft users. Given all of the potential touchpoints available from these receipts (and other touchpoints Slice has, including but not limited to device IDs, geographical location, times of purchase, amount of purchase, and last 4 of the credit card), to call this data anonymous simply because names were removed is simply wrong.</p>
+<p>Data and databases don't exist simply in the abstract. When considering how to securely release or anonymize your data, not accounting for the data that the party you're selling to might have is one surefire way to leak data you didn't want to reveal in the first place. At the very least, companies should be revealing as little data as possible to third parties if they truly care about protecting user privacy. Barring that, aggregating the data or adding random noise to the user-level data is imperative if you actually care about obscuring personally identifiable information.</p>
+<p>Also, if you haven't already, you should probably delete your Unroll.me account.</p>
+  </div>
+
+  <hr class="small"></hr>
+  <div class="article-sharing">
+      <ul>
+      <!-- Twitter Sharing
+      ================================================================== -->
+      <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="alexzhao">Tweet</a></li>
+
+      <!-- Facebook Sharing
+      ================================================================== -->
+      <li><div class="fb-share-button"
+          data-href="https://alexzhao.us/2017/04/25/uber-unrollme-not-anon/"
+          data-layout="button_count">
+      </div></li>
+
+      </ul>
+    </div>
+
+    <!-- Back to home
+    ================================================================== -->
+    <div class="back-to-home">
+      <a href="/">← Back to Home</a>
+    </div>
+    <hr class="small"></hr>
+  </div>
+		</section>
+<!-- Navigation
+================================================== -->
+<footer class="twelve columns">
+	<!-- <hr class="small"> -->
+  <p>Generated with <a href="http://getpelican.com">Pelican</a>. Layout done with <a href="http://getskeleton.com">Skeleton</a>. Icons are <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a>. Hosted on <a href="http://aws.amazon.com/s3/">S3</a>.</p>
+  <p>&copy; Copyright Alex Zhao, 2013 to present</p>
+</footer>	</div><!-- container -->
+
+<!-- Google Analytics
+================================================== -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-98118084-1']);
+  _gaq.push(['_setDomainName', 'www.alexzhao.us']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  <script type="text/javascript">
+    $("a").on('click', function(e) {
+      var url = $(this).attr("href");
+      console.log(url);
+      if (e.currentTarget.host != window.location.host) {
+        _gaq.push(['_trackEvent', 'Outbound Links', e.currentTarget.host, url, 0]);
+        if (e.metaKey || e.ctrlKey) {
+          var newtab = true;
+        }
+        if (!newtab) {
+          e.preventDefault();
+          setTimeout('document.location = "' + url + '"', 100);
+        }
+      }
+    });
+  </script>
+</body> <!-- End body -->
+
+<!-- JavaScript
+=================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!-- twitter.js
+==================================================================== -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<!-- Facebook SDK for JS
+==================================================================== -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+</html>
