@@ -39,7 +39,7 @@ AUTHOR_FEED_RSS = None
 
 NAVIGATION = [
     # You probably want to fill these in so they point to your user pages
-    {'site': 'twitter', 'user': 'alexzhao', 'url': 'https://twitter.com/alexzhao'},
+   # {'site': 'twitter', 'user': 'alexzhao', 'url': 'https://twitter.com/alexzhao'},
     {'site': 'github', 'user': 'yazhao', 'url': 'https://github.com/yazhao'},
     {'site': 'linkedin', 'user': 'yealexzhao', 'url': 'http://linkedin.com/in/yealexzhao'},
 ]
@@ -54,7 +54,7 @@ PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['ipynb.markup','assets', 'pelican_dynamic', 'render_math']
 
 
-TWITTER_NAME = "alexzhao"
+#TWITTER_NAME = "alexzhao"
 TWITTER_CARDS = True
 FACEBOOK_SHARE = True
 HACKER_NEWS_SHARE = False
