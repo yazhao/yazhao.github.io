@@ -23,7 +23,7 @@
   <meta name="google-site-verification" content="AgIAQN_qsniIQWOq659Bnhzx-LZts2FdgP1kLgtQg-k" />
   <meta name="google-site-verification" content="-wneVy0z_MWocNaXikWZzyTe__HZbZDCRfLYEJ1sAg8" />
 
-  <title>The Unroll.me Data That Uber Bought Probably Isn't That Anonymous</title>
+  <title>Don't p-hack: Three Lessons for Data Science in a Public Relations Setting</title>
 
   <meta name="description" content="">
   <meta name="author" content="Alex Zhao">
@@ -49,8 +49,8 @@
 	<!-- Facebook Open Graph
   ================================================== -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="The Unroll.me Data That Uber Bought Probably Isn't That Anonymous">
-  <meta property="og:url" content="https://alexzhao.us/2017/04/25/uber-unrollme-not-anon/">
+  <meta property="og:title" content="Don't p-hack: Three Lessons for Data Science in a Public Relations Setting">
+  <meta property="og:url" content="https://alexzhao.us/2018/11/14/dont-p-hack/">
   <meta property="og:description" content="">
   <meta property="og:site_name" content="Alex Zhao">
   <meta property="og:image" content="https://alexzhao.uscontent/images/avatar.jpg">
@@ -62,7 +62,7 @@
   <meta name="twitter:creator" content="@">
   <meta name="twitter:domain" content="www.alexzhao.us">
   <meta name="twitter:image" content="https://alexzhao.uscontent/images/avatar.jpg">
-  <meta name="twitter:title" content="The Unroll.me Data That Uber Bought Probably Isn't That Anonymous">
+  <meta name="twitter:title" content="Don't p-hack: Three Lessons for Data Science in a Public Relations Setting">
   <meta name="twitter:description" content="">
 
 	<!--[if lt IE 9]>
@@ -123,44 +123,49 @@
 
   <!-- Article Headers
   ================================================================== -->
-  <h1 class="article-title"><a href="/2017/04/25/uber-unrollme-not-anon/" title="Permalink to The Unroll.me Data That Uber Bought Probably Isn't That Anonymous">The Unroll.me Data That Uber Bought Probably Isn't That Anonymous</a></h1>
-  <h5 class="article-date">April 25, 2017
- | Tags:         <a class="tag" href="/tag/technology.html" rel="tag" title="Posts tagged with ">technology</a>
-        <a class="tag" href="/tag/startups.html" rel="tag" title="Posts tagged with ">startups</a>
-        <a class="tag" href="/tag/data-privacy.html" rel="tag" title="Posts tagged with ">data privacy</a>
+  <h1 class="article-title"><a href="/2018/11/14/dont-p-hack/" title="Permalink to Don't p-hack: Three Lessons for Data Science in a Public Relations Setting">Don't p-hack: Three Lessons for Data Science in a Public Relations Setting</a></h1>
+  <h5 class="article-date">November 14, 2018
+ | Tags:         <a class="tag" href="/tag/statistics.html" rel="tag" title="Posts tagged with ">statistics</a>
+        <a class="tag" href="/tag/business.html" rel="tag" title="Posts tagged with ">business</a>
+        <a class="tag" href="/tag/marketing.html" rel="tag" title="Posts tagged with ">marketing</a>
+        <a class="tag" href="/tag/public-relations.html" rel="tag" title="Posts tagged with ">public relations</a>
+        <a class="tag" href="/tag/pr.html" rel="tag" title="Posts tagged with ">pr</a>
   </h5>
   <hr class="small"></hr>
 
   <!-- Article Content
   ================================================================== -->
   <div class="article-content">
-    <p>As was to be expected, a recent <a href="https://www.nytimes.com/2017/04/23/technology/travis-kalanick-pushes-uber-and-himself-to-the-precipice.html">New York Times article about Uber</a> has gotten the internet into an uproar over how Uber conducts its business. What's strange, however, is that while much of the internet's displeasure has been focused on Uber (and reading the article points out several aggressive and probably borderline unethical actions by the company), the biggest casualty from this story might not be Uber at all. Instead, another company, Slice Technologies, owner of a popular inbox decluttering service <a href="https://unroll.me/">Unroll.me</a>, was revealed to have <a href="https://www.nytimes.com/2017/04/24/technology/personal-data-firm-slice-unroll-me-backlash-uber.html">sold receipt data</a> from Uber's competitor Lyft to Uber, in a supposedly anonymized fashion.</p>
-<p>I personally don't think that Slice's particular defenses (we told you we do this and everyone else does it) are particularly compelling. The former depends on a Terms of Service no human being is actually reading, and the latter isn't quite true: the closest analogy I have seen would be Google mining its own data (in its apps and services) to monitor employees of competitors like Apple and Facebook. But that is an issue for another day. </p>
-<p>My problem with this whole saga is the fact that <strong>the information Slice sold really isn't that anonymous</strong>.</p>
-<h3>Location data might be enough</h3>
-<p>Let's suppose for a second that Slice did what it thought was due diligence and removed the names from every receipt. From the articles that I've read, that is essentially the extent to which the data was anonymized and sold to Uber. </p>
-<blockquote>
-<p>Unroll.me, a free service to unsubscribe from email lists, can scour people’s inboxes for receipts from services like Lyft and then sell the information to companies like Uber. The data is anonymized, meaning individuals’ names are not attached to the information, and can be used as a proxy for the health of a rival.</p>
-</blockquote>
-<p>It's possible that Slice also protected some of the location data, but a) that's very much unclear from its own <a href="https://www.slice.com/privacy">privacy policy</a>, and b) If they sold receipt-level data, it's possible both that Uber wanted that location data to keep track of Lyft and that the data is there anyways. At the very least, nothing in Slice's privacy policy prohibits this, and it's very likely they make as much of the individual receipt-level information available as possible.</p>
-<p>This is a problem, since a Lyft receipt looks like this:
-<img alt="Lyft Receipt" src="https://help.lyft.com/hc/en-us/article_attachments/204568237/unnamed.png" title="Lyft Receipt"></p>
-<p>If the reporting around these data sales is true, then what we assume is that all of the information in the receipt above, sans the customer's name, were sold to Uber. That means the last 4 of the credit card, the pickup, and the dropoff, would all be information that Uber could effectively parse. In the abstract, missing the names might be an effective method for eliminating personally identifiable information that would allow someone to trace individual trips back to an actual person. That is to say, this it's difficult to take that kind of receipt data and expose individual identities from just that database alone.</p>
-<p><strong>The problem is that Uber has another pretty much identical database which can be used to reveal these receipt-level identities.</strong></p>
-<h3>How to take "anonymous" data and find identities if you're Uber</h3>
+    <p>I used to work as a data analyst on the marketing team at <a href="https://www.grubhub.com/">GrubHub</a>, an online food delivery company. During this time, some of the more interesting data science tasks I was given included trying to find insights for our public relations team. Some of these were based on current events, like for this article about <a href="https://www.huffingtonpost.com/2012/11/07/election-night-food-delivery-grubhub_n_2090161.html">food orders during the 2012 election</a>. Others were more self-directed, like this analysis a colleague did for NPR about <a href="https://www.npr.org/sections/money/2014/02/26/282132576/74-476-reasons-you-should-always-get-the-bigger-pizza">pizza size and value</a>.</p>
+<p>I thought of this because of an article I read earlier this year about <a href="https://www.buzzfeednews.com/article/stephaniemlee/brian-wansink-cornell-p-hacking#.bmxLG1XPpN">Brian Wansik</a>, a Cornell professor whose work garnered widespread media attention over the years before it was found that he had committed scientific misconduct. Specifically, Wansik "p-hacked," manipulating his data and analysis until he got a p-value below 0.05, the generally accepted threshold for <a href="https://en.wikipedia.org/wiki/Statistical_significance">statistical significance</a>. And while academic and public relations are very different fields, what Wansik did wrong can still help to guide data science for public relations.</p>
+<h3>Lesson One: Don't p-hack</h3>
+<p>This is the most immediate takeaway from Wansik's mistakes. It should be obvious that trying to manipulate your data and analysis to get a significant result is a bad idea. To be clear, this doesn't preclude subsetting or otherwise adjusting your approaching during the course of your analysis, but it does mean that once you get a bad result, you can't just keep changing things until you get a good result.</p>
+<p>At a conceptual level, it might be difficult to tell the difference between p-hacking and legitimate adjustments of data or analyses in order to correct for mistakes or other problems with what you have done. In general, though, if you are:</p>
 <ol>
-<li>Take your own users' data, specifically any saved addresses (for example for Home or Work)</li>
-<li>In addition to this, find for each user their most commonly used addresses/GPS coordinate region (say, within 50 feet) both for pickup and dropoff</li>
-<li>Since the Slice data exists also at the user level, do the same thing for receipts you get for each distinct customer</li>
-<li>If Slice gives you the last 4 of the credit cards for each receipts, compare those with your internal data as well</li>
-<li>Use the information from steps 1-4 (and information about when rides were requested as well) to match up users</li>
-<li>Now you have information on which of your Uber riders use Lyft, and their names.</li>
+<li>Precommitting to a hypothesis beforehand (that is, before you get the data or start diving into it), and</li>
+<li>You have reasonable explanations or hypotheses for why you are adjusting your data approach (for example if you believe that there is a seasonality effect), and</li>
+<li>You are adding, not removing information (adding more variables or columns), with the exceptions of,</li>
+<li>a. Adding more to your sample size indefinitely (which will inevitably get you a significant p-value), or
+   b. Removing outliers</li>
 </ol>
-<p>There are, of course, many caveats to this process. For starters, it's not very well defined since the objective here was not to fully flesh out the exact process by which to match up this supposedly anonymous data with Uber's own data, but rather to point out the general direction by which it could be done. It's also possible that Slice Technologies is better about data privacy than the articles claim, since they might simply aggregate data up at a level that makes it harder to tell who individual users are. Moreover, it's possible that Slice neither provided nor Uber requested that level of granularity, though I am more skeptical about the latter case and nothing within Slice's privacy policy actually rules that out (and indeed reserves the right to sell email messages). And finally, even given all this information, you probably can't get a 100% match between Lyft and Uber users (though very good rates are not out of the question).</p>
-<h4>Do a better job of protecting user privacy</h4>
-<p>Nonetheless, the biggest problem was simply the claim that removing people's names from this receipt level data was sufficient to anonymize the information. Perhaps in the abstract this is true, but when everything else about the receipt information is available, it's not that hard to figure out a name. Indeed, Uber would be far from the only company that could do this: any e-commerce business that stores addresses or tracks locations could use this level of data to find the identities of Lyft users. Given all of the potential touchpoints available from these receipts (and other touchpoints Slice has, including but not limited to device IDs, geographical location, times of purchase, amount of purchase, and last 4 of the credit card), to call this data anonymous simply because names were removed is simply wrong.</p>
-<p>Data and databases don't exist simply in the abstract. When considering how to securely release or anonymize your data, not accounting for the data that the party you're selling to might have is one surefire way to leak data you didn't want to reveal in the first place. At the very least, companies should be revealing as little data as possible to third parties if they truly care about protecting user privacy. Barring that, aggregating the data or adding random noise to the user-level data is imperative if you actually care about obscuring personally identifiable information.</p>
-<p>Also, if you haven't already, you should probably delete your Unroll.me account.</p>
+<p>Then what you're doing will tend to stick to the right side of the legitimate adjustment/p-hacking line.</p>
+<h3>Lesson Two: Precommit to hypotheses (and some other stuff) beforehand</h3>
+<p>As highlighted in the guidelines above, and as a general good practice, you should commit to what hypothesis you want to test beforehand. If you believe that you have a question that people would find interesting, clearly articulate what it is before you start doing analysis on the data. If you're collecting the data yourself, you need to make sure you specify how many observations you'll be collecting as well as what information you want. This avoids two common problems that can lead to bad data science. First, it prevents the scenario where you are blindly digging around the data just to find something interesting (which leads to p-hacking). Second, it prevents retroactively creating a hypothesis based on data you've already looked at. This kind of retroactive hypothesis is especially bad because it defeats the entire purpose of doing data science. Creating a retroactive hypothesis is like looking up spoilers for a movie before seeing it and then making a prediction about how it ends: it is no great feat of analysis to "predict" an answer you already know, and using the data to generate your hypotheses retroactively means that your analysis is not particularly helpful or useful.</p>
+<h3>Lesson Three: If not testing, list out your methodology beforehand</h3>
+<p>Not all data science for public relations involves answering questions with a kind of yes or no answer like the one about whether food orders increased on election night. The staple of any kind of analysis done for PR is usually the list, where a company either releases the "most popular X in country Y" or "the most popular Z by state/province" or "the cities with the most (blank)."  There's nothing wrong with this kind of work, but two good rules to follow include:</p>
+<ol>
+<li>Making your sure explicitly define what metric you're ranking by, and</li>
+<li>Making sure you specify any kinds of adjustments you'd do to the rankings to make it not just dominated by the most popular answer</li>
+</ol>
+<p>The second rule is mostly done because places with higher populations will just generally have more of something, and it is extremely boring if every ranking just had say New York first (sometimes people want to see if something is disproportionately popular in a place, for example). In general, try to avoid constantly remaking your rankings just because you think that the results are not to your liking. This is a good rule of thumb whenever you do data science, but especially so when you're dealing with PR work, because such work is prone to suffering from this problem.</p>
+<h3>Bottom Line</h3>
+<p>While there might be some edge cases here and there when dealing with this kind of work, in general these lessons are good guidelines for making sure that your data science work for PR purposes is both interesting and analytically sound. In short, if you</p>
+<ol>
+<li>State out what you want to test or how you're ranking before you start doing the analysis</li>
+<li>Don't constantly readjust your analysis just because the results are not to your liking</li>
+<li>Don't try to cut up your data by subsetting in order to "salvage" a result</li>
+</ol>
+<p>You should be able to produce insightful data science work that both is generally sound and will give your marketing teams something worthwhile to generate PR.</p>
   </div>
 
   <hr class="small"></hr>
@@ -170,7 +175,7 @@
       <!-- Facebook Sharing
       ================================================================== -->
       <li><div class="fb-share-button"
-          data-href="https://alexzhao.us/2017/04/25/uber-unrollme-not-anon/"
+          data-href="https://alexzhao.us/2018/11/14/dont-p-hack/"
           data-layout="button_count">
       </div></li>
 
