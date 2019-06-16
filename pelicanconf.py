@@ -8,9 +8,10 @@ SITENAME = 'Alex Zhao'
 SITEURL = 'https://www.alex-zhao.com'
 TIMEZONE = 'America/New_York'
 THEME = 'void/'
-AVATAR = 'content/images/avatar.jpg'
+LOGO_IMAGE = 'content/images/avatar.jpg'
 TITLE = 'Alex Zhao: statistics graduate student at Pennsylvnania State University'
 DESCRIPTION = "Alex Zhao is a graduate student in statistics at Penn State, with experience as a data analyst at e-commerce and gaming tech companies working with analytics and big data"
+
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
