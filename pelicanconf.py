@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 #Site 
 AUTHOR = 'Alex Zhao'
 SITENAME = 'Alex Zhao'
-SITEURL = 'http://www.alexzhao.us'
+SITEURL = 'https://www.alex-zhao.com'
 TIMEZONE = 'America/New_York'
 THEME = 'void/'
 AVATAR = 'content/images/avatar.jpg'
@@ -20,7 +20,7 @@ PAGE_PATHS = ['pages']
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 ABOUT_PAGE_HEADER = ''
-STATIC_PATHS = ['images', 'notebooks','extra/CNAME']
+STATIC_PATHS = ['images', 'notebooks','extra/CNAME','figure']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 # DEFAULTS
@@ -31,11 +31,10 @@ DEFAULT_DATE_FORMAT = '%b %d, %Y'
 DEFAULT_PAGINATION = False
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+#FEED_ALL_ATOM = None
+#TRANSLATION_FEED_ATOM = None
+#AUTHOR_FEED_ATOM = None
+#AUTHOR_FEED_RSS = None
 
 NAVIGATION = [
     # You probably want to fill these in so they point to your user pages
@@ -51,7 +50,7 @@ DEFAULT_PAGINATION = 10
 
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['ipynb.markup','assets', 'pelican_dynamic', 'render_math']
+PLUGINS = ['ipynb.markup','assets', 'pelican_dynamic', 'render_math','rmd_reader']
 
 
 #TWITTER_NAME = "alexzhao"
@@ -60,8 +59,11 @@ FACEBOOK_SHARE = True
 HACKER_NEWS_SHARE = False
 
 #### Analytics
-GOOGLE_ANALYTICS = 'UA-98118084-1'
-DOMAIN = "www.alexzhao.us"
+DOMAIN = "www.alex-zhao.com"
 
 # Other
 CACHE_CONTENT = False
+
+# RMarkdown
+RMD_READER_RENAME_PLOT = 'directory'
+RMD_READER_KNITR_OPTS_CHUNK = {'fig.path': 'figure/'}
