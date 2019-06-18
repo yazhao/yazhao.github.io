@@ -9,14 +9,14 @@ Tags: statistics, eda, jobs, pennstate
 
 As a statistics PhD student, I am often asked what I intend to do after I graduate. After I give my answer, the next natural question is "where do PhD students from your department usually go after they graduate?" This question also comes up every year when prospective students visit our department.
 
-In the past, my answer to that second question was that 1/3rd of our graduates went to academia, 1/3rd went into industry, and roughly 1/3rd went into what could loosely be defined as "other," which are jobs that are not quite academia but also not industry either, such as those at a national lab, a government agency, or a think tank like the RAND Corporation. This was more of a guess than anything based on real data, mostly because while we do have a webpage with where our alumni go after they graduate ([http://stat.psu.edu/alumni]), that information is not in a format that's easily analyzable.
+In the past, my answer to that second question was that 1/3rd of our graduates went to academia, 1/3rd went into industry, and roughly 1/3rd went into what could loosely be defined as "other," which are jobs that are not quite academia but also not industry either, such as those at a national lab, a government agency, or a think tank like the RAND Corporation. This was more of a guess than anything based on real data, mostly because while we do have a webpage with where our alumni go after they graduate (<http://stat.psu.edu/alumni>), that information is not in a format that's easily analyzable.
 
 Nonetheless, I do actually want the answer to this question. Part of this is so that I can actually give a good answer to prospective students (or other people who are curious), and part of it is just to satisfy my own curiosity. I recently spent some time organizing the available data into a more manageable CSV file so that I can finally answer the question of where Penn State statistics PhD graduates go.
 
 ## The Data
 All of the data was taken off of the website link above for graduates from 2010 until 2018. I chose to cutoff at 2018 because 2019 graduate information isn't yet fully available and because data before 2010 seems more incomplete. Additionally, data from more than 9 years ago might not be so representative of recent trends in our department. Overall, this meant that I had information on 94 graduates and the first jobs and institutions they went to.
 
-I will note as a major caveat that this information is self reported. While I think the information provided is accurate, it is possible that there is some kind of bias with who actually fills out this form. All of the data as well as the RMarkdown file (with the R code) can be found here: [https://github.com/yazhao/PSUPhdGrads]
+I will note as a major caveat that this information is self reported. While I think the information provided is accurate, it is possible that there is some kind of bias with who actually fills out this form. All of the data as well as the RMarkdown file (with the R code) can be found here: <https://github.com/yazhao/PSUPhdGrads>
 
 ## Definitions
 
