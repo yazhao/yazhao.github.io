@@ -32,10 +32,10 @@ DEFAULT_DATE_FORMAT = '%b %d, %Y'
 DEFAULT_PAGINATION = False
 
 # Feed generation is usually not desired when developing
-#FEED_ALL_ATOM = None
-#TRANSLATION_FEED_ATOM = None
-#AUTHOR_FEED_ATOM = None
-#AUTHOR_FEED_RSS = None
+FEED_ALL_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 NAVIGATION = [
     # You probably want to fill these in so they point to your user pages
@@ -51,7 +51,7 @@ DEFAULT_PAGINATION = 10
 
 MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['ipynb.markup','assets', 'pelican_dynamic', 'render_math','rmd_reader']
+PLUGINS = ['ipynb.markup','assets', 'pelican_dynamic', 'render_math'] #,'rmd_reader'] # taken out
 
 
 #TWITTER_NAME = "alexzhao"
@@ -66,5 +66,5 @@ DOMAIN = "www.alex-zhao.com"
 CACHE_CONTENT = False
 
 # RMarkdown
-RMD_READER_RENAME_PLOT = 'directory'
-RMD_READER_KNITR_OPTS_CHUNK = {'fig.path': 'figure/'}
+#RMD_READER_RENAME_PLOT = 'directory'
+#RMD_READER_KNITR_OPTS_CHUNK = {'fig.path': 'figure/'}
