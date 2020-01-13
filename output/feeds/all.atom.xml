@@ -12,9 +12,9 @@
 &lt;p&gt;&lt;strong&gt;Other&lt;/strong&gt;: This included jobs and institutions that weren't necessarily academia but also clearly were not industry. In this category included working at a government agency, a national lab, and non-profit think tanks.&lt;/p&gt;
 &lt;p&gt;In the cases where I didn't have a first job title, I used the first job location to define the job type.&lt;/p&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;##&lt;/span&gt; 
-&lt;span class="o"&gt;##&lt;/span&gt; &lt;span class="n"&gt;Academia&lt;/span&gt; &lt;span class="n"&gt;Industry&lt;/span&gt;    &lt;span class="n"&gt;Other&lt;/span&gt; 
-&lt;span class="o"&gt;##&lt;/span&gt;    &lt;span class="mi"&gt;61&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;70&lt;/span&gt;    &lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;85&lt;/span&gt;     &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;45&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;## 
+## Academia Industry    Other 
+##    61.70    30.85     7.45
 &lt;/pre&gt;&lt;/div&gt;
 
 
