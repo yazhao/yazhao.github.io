@@ -9,8 +9,8 @@ SITEURL = 'https://www.alex-zhao.com'
 TIMEZONE = 'America/New_York'
 THEME = 'void/'
 LOGO_IMAGE = 'content/images/favicon.jpg'
-TITLE = 'Alex Zhao: statistics graduate student at Pennsylvnania State University'
-DESCRIPTION = "Alex Zhao is a graduate student in statistics at Penn State, with experience as a data analyst at e-commerce and gaming tech companies working with analytics and big data"
+TITLE = 'Alex Zhao'
+DESCRIPTION = "Alex Zhao is a Ph.D. student in Statistics at Penn State, with industry experience in data science and analytics"
 
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
@@ -44,7 +44,7 @@ NAVIGATION = [
     {'site': 'linkedin', 'user': 'yealexzhao', 'url': 'http://linkedin.com/in/yealexzhao'},
 ]
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

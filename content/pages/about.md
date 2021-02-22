@@ -1,5 +1,5 @@
 Title: About
 
-I'm a PhD student in [statistics](https://science.psu.edu/stat) at Pennsylvania State University, with interests in machine learning, high-dimensional inference and regression.
+I'm currently a Ph.D. candidate in the [Department of Statistics](https://science.psu.edu/stat) at Penn State University, with research interests in high-dimensional regression, inference, and machine learning.
 
-Before starting graduate school I worked as a data analyst at both [Zynga](https://www.zynga.com/) and [GrubHub](https://www.grubhub.com/). I completed my BA in economics with a minor in statistics at the [University of Chicago](https://www.uchicago.edu/), where I was a member of the [Chicago Debate Society](https://www.chicagodebatesociety.org/).
+Prior to starting graduate school I worked for four years in data analytics, first at [GrubHub](https://www.grubhub.com/) and most recently at [Zynga](https://www.zynga.com/). I completed my BA in Economics with a minor in statistics at the University of Chicago.
